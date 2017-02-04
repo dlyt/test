@@ -1,11 +1,11 @@
 module.exports = function (shipit) {
   require('shipit-deploy')(shipit)
-  require('./shipit')(shipit)
+  //require('./shipit')(shipit)
   shipit.initConfig({
     default: {
       workspace: '/tmp/github-monitor',
-      deployTo: '/tmp/deploy',
-      repositoryUrl: 'https://github.com/debugEagle/paishou_server.git',
+      deployTo: '/test',
+      repositoryUrl: 'https://github.com/dlyt/test.git',
       ignores: ['.git', 'node_modules'],
       keepReleases: 2,
       deleteOnRollback: false,

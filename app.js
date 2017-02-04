@@ -6,7 +6,6 @@ const xmlBodyParser = require('express-xml-parser')
 const path = require('path')
 const log4js = require('log4js')
 
-
 /* app 实例 */
 var app = express()
 
