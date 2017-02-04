@@ -1,0 +1,54 @@
+{
+  "name": "paishou_server",
+  "version": "1.0.0",
+  "description": "Player APP",
+  "main": "./bin/backend.json",
+  "scripts": {
+    "start": "supervisor ./bin/www",
+    "doc": "apidoc -i api -o conf/doc",
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "apidoc": "^0.16.1",
+    "base32.js": "^0.1.0",
+    "body-parser": "^1.15.2",
+    "co-request": "^1.0.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-xml-parser": "^1.0.0",
+    "jsonwebtoken": "^7.2.1",
+    "lightco": "^0.1.7",
+    "log4js": "^1.1.0",
+    "mysql": "^2.12.0",
+    "node-uuid": "^1.4.7",
+    "nodemailer": "^2.7.0",
+    "redis": "^2.6.3",
+    "request": "^2.79.0",
+    "sequelize": "^3.28.0",
+    "supervisor": "^0.12.0",
+    "util": "^0.10.3",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "shipit-cli": "^2.0.0",
+    "shipit-deploy": "^2.4.0",
+    "should": "^11.1.2",
+    "supertest": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debugEagle/paishou_server.git"
+  },
+  "keywords": [
+    "express",
+    "suquelize",
+    "restful"
+  ],
+  "author": "NB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debugEagle/paishou_server/issues"
+  },
+  "homepage": "https://github.com/debugEagle/paishou_server#readme"
+}
